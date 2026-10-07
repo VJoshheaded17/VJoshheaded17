@@ -1,0 +1,17 @@
+[
+  {
+    "file": "knn.py",
+    "bytes": 7612,
+    "sha256": "cff7337e36a7397f3b80bec16b98f4506dd84cfbc0447cbe8aa4825b4e943813"
+  },
+  {
+    "file": "decision.py",
+    "bytes": 14464,
+    "sha256": "5764b1a2f5dfab7525a2dbda9c21bb9d868415caa22bf4e830318a30a2e96016"
+  },
+  {
+    "file": "HW1.tex",
+    "bytes": 23593,
+    "sha256": "71865958d351cf4127000dfe9c2fd266672b613707941d8eb249e4bab879cdff"
+  }
+]

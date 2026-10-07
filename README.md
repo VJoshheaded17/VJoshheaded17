@@ -37,3 +37,16 @@ A handwritten-digit classifier with explicit NumPy forward propagation and backp
 - Includes numerical gradient checks and a verified 98.03% held-out test result on bundled 8×8 digits.
 
 [Explore the implementation, recorded results and tests →](Neural-Network-From-Scratch/README.md)
+
+## Additional coursework
+
+### [KNN and Decision Trees From Scratch](KNN-and-Decision-Trees/)
+
+NumPy classifiers and reproducible experiments from COMPSCI 589 coursework, exploring normalization, neighbor count, entropy/Gini splitting and early stopping.
+
+**Python · NumPy · KNN · Decision trees · Validation · Repeated holdouts**
+
+- Corrects preprocessing and majority-class handling while preserving the original source.
+- Includes 20 paired KNN splits with validation-based k selection and 100 paired tree splits, with recorded metrics and plots.
+
+[View the implementations, evaluation protocol and results →](KNN-and-Decision-Trees/README.md)

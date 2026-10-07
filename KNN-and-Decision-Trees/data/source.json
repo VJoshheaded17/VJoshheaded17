@@ -1,0 +1,17 @@
+{
+  "source_url": "https://archive.ics.uci.edu/static/public/19/car+evaluation.zip",
+  "dataset_page": "https://archive.ics.uci.edu/dataset/19/car+evaluation",
+  "citation": "Bohanec, M. (1988). Car Evaluation. UCI Machine Learning Repository. https://doi.org/10.24432/C5JP48",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "files": {
+    "car.data": {
+      "sha256": "b703a9ac69f11e64ce8c223c0a40de4d2e9d769f7fb20be5f8f2e8a619893d83",
+      "bytes": 51867
+    },
+    "car.names": {
+      "sha256": "9835ccf47cdbd111577adc50000d6d247f71a31fd6ef84bf25181449685d22bd",
+      "bytes": 3097
+    }
+  }
+}
