@@ -1,0 +1,2 @@
+# For model inference and vector retrieval; the offline demo needs none of these.
+-e .[models,retrieval,evaluation]

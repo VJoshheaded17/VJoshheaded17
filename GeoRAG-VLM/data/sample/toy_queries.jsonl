@@ -1,0 +1,4 @@
+{"id": "q1", "question": "Which scene contains a river in an urban area?", "relevant_ids": ["toy-river"]}
+{"id": "q2", "question": "Which scene contains forest canopy on hills?", "relevant_ids": ["toy-forest"]}
+{"id": "q3", "question": "Find agricultural fields and crop plots.", "relevant_ids": ["toy-farm"]}
+{"id": "q4", "question": "Find a coastline with sandy land.", "relevant_ids": ["toy-coast"]}

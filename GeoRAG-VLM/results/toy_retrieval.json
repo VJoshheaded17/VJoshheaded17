@@ -1,0 +1,54 @@
+{
+  "dataset": "synthetic toy fixtures; not satellite validation",
+  "backend": "lexical",
+  "encoder": null,
+  "representation": "text",
+  "corpus_sha256": "7d59b092eed706bf69a18508ef8d1b6e5e10412b2d343f67481e3714ad7864d5",
+  "queries_sha256": "aea2cc42ab7b81c58e82873056816f53e1ed71156e78cc9e03e5393db46b039f",
+  "queries": [
+    {
+      "query_id": "q1",
+      "retrieved_ids": [
+        "toy-river",
+        "toy-water",
+        "toy-farm"
+      ],
+      "recall@3": 1.0,
+      "reciprocal_rank@3": 1.0
+    },
+    {
+      "query_id": "q2",
+      "retrieved_ids": [
+        "toy-forest",
+        "toy-coast",
+        "toy-desert"
+      ],
+      "recall@3": 1.0,
+      "reciprocal_rank@3": 1.0
+    },
+    {
+      "query_id": "q3",
+      "retrieved_ids": [
+        "toy-farm",
+        "toy-desert",
+        "toy-forest"
+      ],
+      "recall@3": 1.0,
+      "reciprocal_rank@3": 1.0
+    },
+    {
+      "query_id": "q4",
+      "retrieved_ids": [
+        "toy-coast",
+        "toy-river",
+        "toy-forest"
+      ],
+      "recall@3": 1.0,
+      "reciprocal_rank@3": 1.0
+    }
+  ],
+  "mean_metrics": {
+    "recall@3": 1.0,
+    "reciprocal_rank@3": 1.0
+  }
+}

@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.ipynb_checkpoints/
+*.db
+*.sqlite*
+*.npy
+*.npz
+*.faiss
+GeoRAG-VLM/data/raw/
+GeoRAG-VLM/data/private/
+GeoRAG-VLM/results/runs/

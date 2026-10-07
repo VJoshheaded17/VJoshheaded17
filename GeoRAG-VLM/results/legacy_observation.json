@@ -1,0 +1,14 @@
+{
+  "source_notebook": "RAG_vs_No_RAG (1).ipynb",
+  "source_cell_zero_based": 20,
+  "record_type": "historical_saved_output_not_reproduced",
+  "bleu_rag": 0.1791,
+  "bleu_no_rag": 0.0222,
+  "validated_comparison": false,
+  "limitations": [
+    "Different questions were given to RAG and no-RAG",
+    "Only two documents were indexed and top_k was two",
+    "ground_truth is not defined in saved notebook source",
+    "Generated captions are not independently verified"
+  ]
+}

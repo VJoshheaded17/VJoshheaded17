@@ -1,0 +1,1 @@
+{"id": "your-query-001", "question": "Describe the broad land-cover features of the target scene.", "target": {"scene_id": "your-scene-001"}, "reference": "REPLACE with a human-verified reference before running.", "relevant_ids": ["your-reference-document"], "exclude_ids": ["your-scene-001"]}
