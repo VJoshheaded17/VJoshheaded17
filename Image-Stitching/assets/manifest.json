@@ -1,0 +1,52 @@
+[
+  {
+    "png_path": "examples/task1/t1_1.png",
+    "encoded_path": "assets/examples/task1/t1_1.png.base64",
+    "sha256": "19872b442b19864665f71aeec599a0edafa2f5a6390cf1574dc18a7b342fd40c"
+  },
+  {
+    "png_path": "examples/task1/t1_2.png",
+    "encoded_path": "assets/examples/task1/t1_2.png.base64",
+    "sha256": "aa3d2fa9f1f2898cb70023164c135aca6c6177a485109062a6c2d3a32b28dc8d"
+  },
+  {
+    "png_path": "examples/task2/t2_1.png",
+    "encoded_path": "assets/examples/task2/t2_1.png.base64",
+    "sha256": "61de2287ce3af43061310f7fcf6579b5595611d2b2d4785ef08c6b765f862dc8"
+  },
+  {
+    "png_path": "examples/task2/t2_2.png",
+    "encoded_path": "assets/examples/task2/t2_2.png.base64",
+    "sha256": "cf0ff9af33dadc83e821e0f5a29f4dd6a53e92d1561b2c8d466f4f30611de6b5"
+  },
+  {
+    "png_path": "examples/task2/t2_3.png",
+    "encoded_path": "assets/examples/task2/t2_3.png.base64",
+    "sha256": "1e29c7353183e27a04c9f04dc532fddd43f0e1767df92902faadf1b3f488512b"
+  },
+  {
+    "png_path": "examples/task2/t2_4.png",
+    "encoded_path": "assets/examples/task2/t2_4.png.base64",
+    "sha256": "9cff8b5768ce7017952c3dcb2ef1755203d5f1c1c629199a48d82608796dcc76"
+  },
+  {
+    "png_path": "results/corrected/task1.png",
+    "encoded_path": "assets/results/corrected/task1.png.base64",
+    "sha256": "33d9995ee16544558d4e460be73018920da940dd42ae3968d99580ac9f3f6ded"
+  },
+  {
+    "png_path": "results/corrected/task2.png",
+    "encoded_path": "assets/results/corrected/task2.png.base64",
+    "sha256": "6f1663bf64eb7953b1bdbefb532b3231b946248d77a7cf74369ab5eaa1dfc626"
+  },
+  {
+    "png_path": "results/original/task1.png",
+    "encoded_path": "assets/results/original/task1.png.base64",
+    "sha256": "a57c7f0884648059b1817d7bd4a8578b47248a0966927c531144bf3d2ca7e0b9"
+  },
+  {
+    "png_path": "results/original/task2.png",
+    "encoded_path": "assets/results/original/task2.png.base64",
+    "sha256": "d448488b3add499d7903645c57ad0c971664dea1f3629cbbe5eead22bd83284f"
+  }
+]

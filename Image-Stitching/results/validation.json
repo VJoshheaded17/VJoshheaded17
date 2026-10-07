@@ -1,0 +1,76 @@
+{
+  "python": "3.12.14",
+  "torch": "2.5.1+cpu",
+  "kornia": "0.7.0",
+  "device": "cpu",
+  "seed": 17,
+  "threads_for_examples": 4,
+  "tests_passed": 12,
+  "tests_failed": 0,
+  "examples_completed": [
+    "task1",
+    "task2"
+  ],
+  "corrected_outputs": [
+    {
+      "path": "results/corrected/task1.png",
+      "dimensions_width_height": [
+        583,
+        383
+      ],
+      "sha256": "33d9995ee16544558d4e460be73018920da940dd42ae3968d99580ac9f3f6ded"
+    },
+    {
+      "path": "results/corrected/task2.png",
+      "dimensions_width_height": [
+        1036,
+        683
+      ],
+      "sha256": "6f1663bf64eb7953b1bdbefb532b3231b946248d77a7cf74369ab5eaa1dfc626"
+    }
+  ],
+  "binary_overlap": [
+    [
+      1,
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      1
+    ]
+  ],
+  "overlap_filename_order": [
+    "t2_1.png",
+    "t2_2.png",
+    "t2_3.png",
+    "t2_4.png"
+  ],
+  "visual_observations": [
+    "Four-image geometry is more coherent than the saved original panorama",
+    "Residual seam/parallax artifacts remain",
+    "Two-image result retains moving-object ghosting"
+  ],
+  "not_measured": [
+    "benchmark accuracy",
+    "foreground-removal success",
+    "robustness across scenes",
+    "runtime comparison"
+  ],
+  "asset_transport": "base64 PNG payloads with SHA-256 decoder; SVG raster previews"
+}

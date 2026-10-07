@@ -1,0 +1,4 @@
+# CPU PyTorch can be installed separately using its official CPU wheel index.
+torch==2.5.1
+kornia==0.7.0
+Pillow>=10,<13
