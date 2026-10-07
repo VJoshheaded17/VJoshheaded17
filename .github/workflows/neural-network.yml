@@ -1,0 +1,33 @@
+name: Neural network checks
+
+on:
+  push:
+    paths:
+      - 'Neural-Network-From-Scratch/**'
+      - '.github/workflows/neural-network.yml'
+  pull_request:
+    paths:
+      - 'Neural-Network-From-Scratch/**'
+      - '.github/workflows/neural-network.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: Neural-Network-From-Scratch
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements-demo.txt
+      - run: python -m unittest discover -s tests -v
+      - run: python train.py --dataset digits --hidden 8 --maxiter 5 --output runs/ci

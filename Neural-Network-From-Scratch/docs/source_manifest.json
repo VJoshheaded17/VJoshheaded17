@@ -1,0 +1,24 @@
+{
+  "source_archive": "proj1.zip",
+  "archive_sha256": "2b0faf2242e7c5ef2b7645d43e4afea76ff1bf9ad9b4a68a8764399218fbedf0",
+  "entries": [
+    {
+      "path": "proj1/code/nnScript.py",
+      "bytes": 12199,
+      "sha256": "7ef1dcd6fdbeb3833005c1a3cbb5af5ac1b5f5c2783f2927994eebb38dd8531c",
+      "published": true
+    },
+    {
+      "path": "proj1/code/params.pickle",
+      "bytes": 2437155,
+      "sha256": "a1f45b075825b5e398097495705265488ffffd46c555c758189a62de358d62e2",
+      "published": false
+    },
+    {
+      "path": "proj1/demo.mp4.mp4",
+      "bytes": 62192176,
+      "sha256": "d9f9393be9bbd95d4e8edf68c85c18b2d4c49e3f4857424c7379a0e745199080",
+      "published": false
+    }
+  ]
+}
